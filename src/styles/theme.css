@@ -1,0 +1,56 @@
+/* src/styles/theme.css */
+:root {
+    /* Light Theme (Default) */
+    --primary-color: #4f46e5; /* Indigo */
+    --primary-hover-color: #4338ca;
+    --primary-focus-shadow: rgba(79, 70, 229, 0.3);
+    --secondary-color: #10b981; /* Emerald */
+    --danger-color: #ef4444; /* Red */
+    --danger-hover-color: #dc2626;
+    --background-color: #f9fafb; /* Gray 50 */
+    --content-bg-color: #ffffff; /* White */
+    --text-color: #374151; /* Gray 700 */
+    --heading-color: #111827; /* Gray 900 */
+    --subtle-text-color: #6b7280; /* Gray 500 */
+    --border-color: #e5e7eb; /* Gray 200 */
+    --input-bg-color: #ffffff;
+    --shadow-soft: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -1px rgba(0, 0, 0, 0.03);
+    --shadow-medium: 0 10px 15px -3px rgba(0, 0, 0, 0.07), 0 4px 6px -2px rgba(0, 0, 0, 0.04);
+    --border-radius-small: 4px;
+    --border-radius-medium: 8px;
+    --border-radius-large: 12px;
+  
+    --chart-income-color: rgba(16, 185, 129, 0.6); /* Emerald */
+    --chart-expense-color: rgba(239, 68, 68, 0.6); /* Red */
+    --chart-border-income: rgba(16, 185, 129, 1);
+    --chart-border-expense: rgba(239, 68, 68, 1);
+    --chart-grid-color: rgba(229, 231, 235, 0.5); /* Gray 200 */
+    --chart-tooltip-bg: rgba(17, 24, 39, 0.85); /* Gray 900 */
+    --chart-tooltip-text: #ffffff;
+  }
+  
+  body.dark-mode {
+    --primary-color: #6366f1; /* Indigo 500 */
+    --primary-hover-color: #818cf8; /* Indigo 400 */
+    --primary-focus-shadow: rgba(99, 102, 241, 0.4);
+    --secondary-color: #34d399; /* Emerald 400 */
+    --danger-color: #f87171; /* Red 400 */
+    --danger-hover-color: #ef4444; /* Red 500 */
+    --background-color: #111827; /* Gray 900 */
+    --content-bg-color: #1f2937; /* Gray 800 */
+    --text-color: #d1d5db; /* Gray 300 */
+    --heading-color: #f9fafb; /* Gray 50 */
+    --subtle-text-color: #9ca3af; /* Gray 400 */
+    --border-color: #374151; /* Gray 700 */
+    --input-bg-color: #374151; /* Gray 700 */
+    --shadow-soft: 0 4px 6px -1px rgba(0, 0, 0, 0.15), 0 2px 4px -1px rgba(0, 0, 0, 0.1);
+    --shadow-medium: 0 10px 15px -3px rgba(0, 0, 0, 0.2), 0 4px 6px -2px rgba(0, 0, 0, 0.1);
+  
+    --chart-income-color: rgba(52, 211, 153, 0.6); /* Emerald 400 */
+    --chart-expense-color: rgba(248, 113, 113, 0.6); /* Red 400 */
+    --chart-border-income: rgba(52, 211, 153, 1);
+    --chart-border-expense: rgba(248, 113, 113, 1);
+    --chart-grid-color: rgba(55, 65, 81, 0.5); /* Gray 700 */
+    --chart-tooltip-bg: rgba(249, 250, 251, 0.85); /* Gray 50 */
+    --chart-tooltip-text: #111827; /* Gray 900 */
+  }

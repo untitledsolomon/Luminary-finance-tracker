@@ -1,0 +1,10 @@
+/* src/styles/charts.css */
+.chart-container {
+    position: relative;
+    /* height: 300px; Adjust as needed */
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+  
+  /* Tooltip customisation via Chart.js options is preferred,
+     but some global overrides might go here if necessary */
